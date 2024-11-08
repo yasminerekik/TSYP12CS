@@ -22,6 +22,14 @@ The model configuration is tuned to maximize detection accuracy and F1 score.
 
 ![image](https://github.com/user-attachments/assets/dac98226-a21a-4677-9e90-819d8dbf9813)
 
+The ROC curve in Figure 1 shows the performance of various models for DDoS detection in SMARTSHIELD:
+
+- **Random Forest (AUC = 1.00)**: Achieved perfect classification with no false positives or negatives, ideal for DDoS detection.
+- **Logistic Regression (AUC = 0.99)**: Very high accuracy, closely matching Random Forest's performance.
+- **CatBoost (AUC = 0.999)**: Chosen as the primary model for its strong accuracy and ability to minimize misclassifications, making it optimal for SMARTSHIELD.
+- **Random Classifier (AUC = 0.50)**: Used as a baseline, showing no distinction between classes.
+
+Overall, Random Forest and CatBoost demonstrate excellent precision, with CatBoost selected for its handling of categorical data and balanced performance, ideal for SMARTSHIELD deployment.
 
 ### Step 2: Model Dockerization
 - **Deployment**: A Docker setup with a Python script and requirements file enables easy deployment. The model is hosted on Hugging Face, and API functionality is verified with Postman.
