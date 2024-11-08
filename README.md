@@ -42,6 +42,9 @@ Overall, Random Forest and CatBoost demonstrate excellent precision, with CatBoo
 ### Step 3: Network Architecture
 - **Infrastructure**: The setup includes ELK for log centralization, a pfSense firewall, an IDS/IPS, and a SOAR system for automated response.
 
+![archiyas](https://github.com/user-attachments/assets/3c916fa2-f896-40d2-8692-b8f176d00b56)
+
+
 ### Step 4: Model Integration and Visualization
 - **Kibana Integration**: The model’s DDoS detection is visualized in Kibana, allowing real-time monitoring and response demonstration.
 
