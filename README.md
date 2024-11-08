@@ -20,6 +20,9 @@ The model configuration is tuned to maximize detection accuracy and F1 score.
 4. **Training and Validation**: The model is trained and fine-tuned to maximize precision and recall.
 5. **Evaluation**: Metrics like Accuracy and F1 Score confirm CatBoost’s effectiveness.
 
+![image](https://github.com/user-attachments/assets/dac98226-a21a-4677-9e90-819d8dbf9813)
+
+
 ### Step 2: Model Dockerization
 - **Deployment**: A Docker setup with a Python script and requirements file enables easy deployment. The model is hosted on Hugging Face, and API functionality is verified with Postman.
 
