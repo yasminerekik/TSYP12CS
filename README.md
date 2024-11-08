@@ -25,6 +25,11 @@ The model configuration is tuned to maximize detection accuracy and F1 score.
 
 ### Step 2: Model Dockerization
 - **Deployment**: A Docker setup with a Python script and requirements file enables easy deployment. The model is hosted on Hugging Face, and API functionality is verified with Postman.
+- The link of Hugging Face : https://huggingface.co/spaces/yasminerekik/IEEEE_model/tree/main
+- Tests of Postman : 
+![Capture d'écran 2024-11-06 223543](https://github.com/user-attachments/assets/e58c6296-c9d3-4c08-b68b-d399b121bf84)
+
+![Capture d'écran 2024-11-06 223601](https://github.com/user-attachments/assets/3ebf3fdd-d1e3-4bb0-8a92-2d6e4c9bdfed)
 
 ### Step 3: Network Architecture
 - **Infrastructure**: The setup includes ELK for log centralization, a pfSense firewall, an IDS/IPS, and a SOAR system for automated response.
