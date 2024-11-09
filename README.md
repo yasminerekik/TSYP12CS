@@ -40,12 +40,16 @@ Overall, Random Forest and CatBoost demonstrate excellent precision, with CatBoo
 ![Capture d'écran 2024-11-06 223601](https://github.com/user-attachments/assets/3ebf3fdd-d1e3-4bb0-8a92-2d6e4c9bdfed)
 
 ### Step 3: Network Architecture
-- **Infrastructure**: The setup includes ELK for log centralization, a pfSense firewall, an IDS/IPS, and a SOAR system for automated response.
+The network architecture simulates an external attacker attempting to target a client within a local network. All traffic is routed through a pfSense firewall configured with IDS/IPS capabilities using Suricata. The pfSense firewall forwards its logs to a Windows Server, where Splunk SIEM is installed to analyze and visualize network traffic and potential threats.  
 
 ![archiyas](https://github.com/user-attachments/assets/3c916fa2-f896-40d2-8692-b8f176d00b56)
 
 
 ### Step 4: Model Integration and Visualization
-- **Kibana Integration**: The model’s DDoS detection is visualized in Kibana, allowing real-time monitoring and response demonstration.
+This network security architecture allows for effective testing and monitoring of DDoS attacks using an integrated firewall and SIEM setup. The configuration enables real-time analysis of traffic through Suricata and log management in Splunk, providing essential insights into network security threats. This setup serves as a foundational model for proactive monitoring and alerting on network-based attacks.
+
+https://github.com/user-attachments/assets/da100cb6-612f-48c0-aaa3-95abf22dd565
+
+
 
 
